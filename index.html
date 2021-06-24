@@ -14,11 +14,13 @@
 		}
 		
 		.subtitle {
-			background-color: CornflowerBlue;
+			background-color: CadetBlue;<!--CornflowerBlue;-->
 		}
 		
 		.anelement {
-			background-color: bisque;
+			background-color: Wheat;
+			font-size:1.15em;
+			font-family: Georgia;
 		}
 		
 		.hoverfade img:hover {
@@ -29,22 +31,24 @@
 	
 	<div class="container">
 		
-		<div class="row title py-2 my-3 rounded align-items-center">
-			<div class="col-4 text-light">
+		<div class="row py-3"><br></div>
+		
+		
+		<div class="row title align-items-center"><!--py-2 my-3 rounded-->
+			<div class="col-4 title text-light">
 				<h1>
 					Benjamin Massey
 				</h1>
 			</div>
-			<div class="col offset-6" style="text-align:right">
+			<div class="col title offset-6" style="text-align:right"> <!---->
 				<div class ="hoverfade">
 					<a href="https://www.github.com/BenjaminMassey"><img src="icons/github.png" class="img-fluid" alt="GitHub"></a>
 					<a href="https://www.linkedin.com/in/BenjaminMassey"><img src="icons/linkedin.png" class="img-fluid" alt="LinkedIn"></a>
 				</div>
 			</div>
 		</div>
-		
+		<!--
 		<div class="row py-3"></div>
-		
 		<div class="row align-items-center">
 			<div class="col-4 py-2 my-1 rounded text-light subtitle">
 				<h2>
@@ -52,13 +56,16 @@
 				</h2>
 			</div>
 		</div>
+		-->
+
 		
-		<div class="row anelement py-2 my-3 rounded align-items-center">
+		<div class="row anelement align-items-center" style="border:6px solid CadetBlue;"> <!-- py-2 my-3 rounded-->
+			
 			<div class="col-lg-4 col-sm-12">
 				<img src="photos/me.png" style="width:350px" class="img-fluid rounded-circle" alt="Me :D">
 			</div>
-			<div class="col-lg-8 col-sm-12">
-				<div class="alert alert-info" role="alert">
+			<div class="col-lg-8 col-sm-12" style="padding-top:1em">
+				<!--<div class="alert alert-info" role="alert">-->
 					<p>
 						Hey! My name is Benjamin Massey.
 					</p>
@@ -87,26 +94,27 @@
 						intrigued by the page, then do not hesistate to use the contact
 						form at the bottom of the page. Thanks for checking out the site!
 					</p>
-				</div>
+				<!--</div>-->
 			</div>
 		</div>
 		
 		<div class="row py-3"></div>
 		
 		<div class="row align-items-center">
-			<div class="col-4 py-2 my-1 rounded text-light subtitle">
+			
+			<div class="col-4 py-1 text-light subtitle"><!--rounded py-2 my-1-->
 				<h2>
 					Experience
 				</h2>
 			</div>
 		</div>
 		
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		<div class="row anelement align-items-center" style="padding-top:1em; border:6px solid CadetBlue; border-style: solid solid none solid;"> <!--py-2 my-3 rounded--> <!-- justify-content-center align-items-center gx-5 -->
 			<div class="col-lg-5 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						<img src="icons/autonodyne.png" style="width:100px" class="img-fluid rounded-circle" alt="Autonodyne">
-						Virtual Reality Software Intern
+						Virtual Reality Intern
 					</h3>
 					<h5 style="text-align:right">
 						Autonodyne<br>
@@ -115,33 +123,36 @@
 				</div>
 			</div>
 			<div class="col-lg-7 col-sm-12">
-				<div class="alert alert-info" role="alert">
+				<!--<div class="alert alert-info" role="alert">-->
 					Created self-driven VR project which helped drone-pathing team to visualize 3D coordinates.
 					Coded and managed AWS server in order to provide ease-of-use to drone-pathing team.
 					Worked with AR/VR department and other teams to assist in company functions.
 					Provided in-person help and detailed documentation about work done at the company.
-				</div>
-				<span class="badge bg-primary">
+				<!--</div>--><br><br>
+				<span class="badge bg-secondary">
 					C#
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					AWS
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					JavaScript
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Aviation
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Corporate
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Virtual Reality
 				</span>
 			</div>
 		</div>
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		<div class="row anelement" style="padding-top:15px; border:6px solid CadetBlue; border-style: none solid none solid;">
+			<hr/>
+		</div>
+		<div class="row anelement align-items-center" style="border:6px solid CadetBlue; border-style: none solid none solid;"> <!--py-2 my-3 rounded--><!-- justify-content-center align-items-center gx-5 -->
 			<div class="col-lg-5 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
@@ -156,33 +167,36 @@
 				</div>
 			</div>
 			<div class="col-lg-7 col-sm-12">
-				<div class="alert alert-info" role="alert">
+				<!--<div class="alert alert-info" role="alert">-->
 					Took the old MATLAB codebase and rewrote it into an updated Python version.
 					Helped collect Terahertz data and analyze the details of said data.
 					Automated collection processes with Python scripting in order to allow better workflow effiency.
 					Gave presentations on both details of code and results of data collection.
-				</div>
-				<span class="badge bg-primary">
+				<!--</div>--><br><br>
+				<span class="badge bg-secondary">
 					Python
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					MATLAB
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Automation
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					University
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Research
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Equipment
 				</span>
 			</div>
 		</div>
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		<div class="row anelement" style="padding-top:15px; border:6px solid CadetBlue; border-style: none solid none solid;">
+			<hr/>
+		</div>
+		<div class="row anelement align-items-center" style="padding-bottom:1em; border:6px solid CadetBlue; border-style: none solid solid solid;"> <!--py-2 my-3 rounded--> <!-- justify-content-center align-items-center gx-5 -->
 			<div class="col-lg-5 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
@@ -197,27 +211,27 @@
 				</div>
 			</div>
 			<div class="col-lg-7 col-sm-12">
-				<div class="alert alert-info" role="alert">
+				<!--<div class="alert alert-info" role="alert">-->
 					Worked on an experimental asynchronous computer chip via an extensive Java library, which involved emulated and real testing.
 					Attended regular meetings and worked more generally with other researchers.
 					Gave presentations and wrote papers on the data collection, code written, and results discovered.
-				</div>
-				<span class="badge bg-primary">
+				<!--</div>--><br><br>
+				<span class="badge bg-secondary">
 					Java
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Circuitry
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Research
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Presentations
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					Papers
 				</span>
-				<span class="badge bg-primary">
+				<span class="badge bg-secondary">
 					University
 				</span>
 			</div>
@@ -226,27 +240,27 @@
 		<div class="row py-3"></div>
 		
 		<div class="row align-items-center">
-			<div class="col-4 py-2 my-1 rounded text-light subtitle">
+			<div class="col-4 py-1 text-light subtitle"> <!-- py-2 my-1 rounded -->
 				<h2>
 					Projects
 				</h2>
 			</div>
 		</div>
 		
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		<div class="row anelement align-items-center" style="padding-top:1em; border:6px solid CadetBlue; border-style: solid solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
 			<div class="col-lg-4 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Speedrun Stocks
 					</h3>
 					
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						Java
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						HTML
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						CSS
 					</span>
 					<a href="https://www.github.com/BenjaminMassey/BeanBoyBot/"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
@@ -268,21 +282,26 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-9">
-				<div class="alert alert-info" role="alert">
+				<!--<div class="alert alert-info" role="alert">-->
 					Bot for speedrunners that lets their viewers play a game with their run.
-				</div>
+				<!--</div>-->
 			</div>
 		</div>
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		
+		<div class="row anelement" style="padding-top:15px; border:6px solid CadetBlue; border-style: none solid none solid;">
+			<hr/>
+		</div>
+		
+		<div class="row anelement align-items-center" style="border:6px solid CadetBlue; border-style: none solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
 			<div class="col-lg-4 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Lakeridge Smash Club App
 					</h3>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						Android Studio
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						Java
 					</span>
 					<a href="https://play.google.com/store/apps/details?id=com.bmassey.android.lakeridgesmashclub&hl=en"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
@@ -304,24 +323,29 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-9">
-				<div class="alert alert-info" role="alert">
+				<!--<div class="alert alert-info" role="alert">-->
 					Provides interactive rankings for a club’s game players.
-				</div>
+				<!--</div>-->
 			</div>
 		</div>
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		
+		<div class="row anelement" style="padding-top:15px; border:6px solid CadetBlue; border-style: none solid none solid;">
+			<hr/>
+		</div>
+		
+		<div class="row anelement align-items-center" style="border:6px solid CadetBlue; border-style: none solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
 			<div class="col-lg-4 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Virtual Reality AP Testing Sim
 					</h3>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						C#
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						Unity
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						VR
 					</span>
 					<a href="https://github.com/BenjaminMassey/VRAPTesting"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
@@ -343,24 +367,29 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-9">
-				<div class="alert alert-info" role="alert">
+				<!--<div class="alert alert-info" role="alert">-->
 					A VR experience where one can practice taking a college entry exam.
-				</div>
+				<!--</div>-->
 			</div>
 		</div>
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		
+		<div class="row anelement" style="padding-top:15px; border:6px solid CadetBlue; border-style: none solid none solid;">
+			<hr/>
+		</div>
+		
+		<div class="row anelement align-items-center" style="border:6px solid CadetBlue; border-style: none solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
 			<div class="col-lg-4 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Idea of Home Web Project
 					</h3>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						JavaScript
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						HTML
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						MongoDB
 					</span>
 					<a href="https://github.com/BenjaminMassey/ENG250Project"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
@@ -382,24 +411,29 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-9">
-				<div class="alert alert-info" role="alert">
+				<!--<div class="alert alert-info" role="alert">-->
 					Web-based interactive project made to analyze the idea of home.
-				</div>
+				<!--</div>-->
 			</div>
 		</div>
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		
+		<div class="row anelement" style="padding-top:15px; border:6px solid CadetBlue; border-style: none solid none solid;">
+			<hr/>
+		</div>
+		
+		<div class="row anelement align-items-center" style="border:6px solid CadetBlue; border-style: none solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
 			<div class="col-lg-4 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Snail Mail Android Game
 					</h3>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						Unity
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						C#
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						Android
 					</span>
 					<a href="https://github.com/BenjaminMassey/SnailMail"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
@@ -421,24 +455,29 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-9">
-				<div class="alert alert-info" role="alert">
+				<!--<div class="alert alert-info" role="alert">-->
 					Simple game expanded upon from a 24 hour game jam.
-				</div>
+				<!--</div>-->
 			</div>
 		</div>
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		
+		<div class="row anelement" style="padding-top:15px; border:6px solid CadetBlue; border-style: none solid none solid;">
+			<hr/>
+		</div>
+		
+		<div class="row anelement align-items-center" style="padding-bottom:1em; border:6px solid CadetBlue; border-style: none solid solid solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
 			<div class="col-lg-4 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Virtual Reality Guitar Hero
 					</h3>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						Unity
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						C#
 					</span>
-					<span class="badge bg-primary">
+					<span class="badge bg-secondary">
 						VR
 					</span>
 					<a href="https://github.com/BenjaminMassey/VRGuitarHero"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
@@ -460,23 +499,23 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-9">
-				<div class="alert alert-info" role="alert">
+				<!--<div class="alert alert-info" role="alert">-->
 					Rhythm game inspired by Guitar Hero for the Oculus Rift.
-				</div>
+				<!--</div>-->
 			</div>
 		</div>
 		
 		<div class="row py-3"></div>
 		
 		<div class="row align-items-center">
-			<div class="col-4 py-2 my-1 rounded text-light subtitle">
+			<div class="col-4 py-1 text-light subtitle"> <!-- py-2 my-1 rounded -->
 				<h2>
 					Contact
 				</h2>
 			</div>
 		</div>
 		
-		<div class="row anelement py-2 my-3 rounded align-items-center"> <!-- justify-content-center align-items-center gx-5 -->
+		<div class="row anelement align-items-center" style="border:6px solid CadetBlue;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
 			<form action="https://formspree.io/f/myylpgea" method="POST">
 			  <div class="form-group py-1 my-2">
 				<label for="name-input"><b>Your Email</b></label>
@@ -490,7 +529,7 @@
 			</form>
 		</div>
 		
-		<div class="row py-3"></div>
+		<div class="row py-5"></div>
 		
 	<div>
 
