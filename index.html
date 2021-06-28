@@ -27,6 +27,19 @@
 			opacity: .5;
 		}
 		
+		.carousel-inner  {  
+			width:100%;
+			height:150px;
+			margin:auto;
+		}
+		@media (max-width: 1000px) {
+			.carousel-inner  {
+				width:50%;
+				height:100%;
+				margin:auto;
+			}
+		}
+		
 	</style>
 	
 	<div class="container">
@@ -62,7 +75,7 @@
 		<div class="row anelement align-items-center" style="border:6px solid CadetBlue;"> <!-- py-2 my-3 rounded-->
 			
 			<div class="col-lg-4 col-sm-12">
-				<img src="photos/me.png" style="width:350px" class="img-fluid rounded-circle" alt="Me :D">
+				<img src="photos/me.png" style="width:350px;" class="img-fluid rounded-circle" alt="Me :D">
 			</div>
 			<div class="col-lg-8 col-sm-12" style="padding-top:1em">
 				<!--<div class="alert alert-info" role="alert">-->
@@ -78,7 +91,7 @@
 						I have been in love with programming since I was
 						a sophomore in High School. I try to find time for
 						random projects whenever I can, and have a particular
-						love for making Virtual Reality and game-related projects.
+						love for making Virtual Reality (VR) and game-related projects.
 					</p>
 					<p>
 						In my free time, I like to play video games and spend time
@@ -114,7 +127,7 @@
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						<img src="icons/autonodyne.png" style="width:100px" class="img-fluid rounded-circle" alt="Autonodyne">
-						Virtual Reality Intern
+						VR Software Intern
 					</h3>
 					<h5 style="text-align:right">
 						Autonodyne<br>
@@ -248,7 +261,7 @@
 		</div>
 		
 		<div class="row anelement align-items-center" style="padding-top:1em; border:6px solid CadetBlue; border-style: solid solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
-			<div class="col-lg-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Speedrun Stocks
@@ -266,22 +279,22 @@
 					<a href="https://www.github.com/BenjaminMassey/BeanBoyBot/"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
 				</div>
 			</div>
-			<div class="col-lg-2 col-sm-3">
+			<div class="col-lg-2 col-md-12 col-sm-12">
 				<div id="carouselSpeedrunStocks" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
-				  <div class="carousel-inner" style="height:100px !important;">
+				  <div class="carousel-inner"> <!--"height:100px !important;"  width:200px;height:150px width:50%; style="margin:auto";-->
 					<div class="carousel-item active">
-					  <img src="https://i.imgur.com/WCEBmxZ.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/srs1.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="https://i.imgur.com/cv8FBom.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/srs2.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="https://i.imgur.com/yNPHfvO.jpg" class="d-block w-100" alt="...">
+					  <img src="screenshots/srs3.jpg" class="d-block w-100" alt="...">
 					</div>
 				  </div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-sm-9">
+			<div class="col-lg-6 col-md-12 col-sm-12">
 				<!--<div class="alert alert-info" role="alert">-->
 					Bot for speedrunners that lets their viewers play a game with their run.
 				<!--</div>-->
@@ -293,7 +306,7 @@
 		</div>
 		
 		<div class="row anelement align-items-center" style="border:6px solid CadetBlue; border-style: none solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
-			<div class="col-lg-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Lakeridge Smash Club App
@@ -307,22 +320,22 @@
 					<a href="https://play.google.com/store/apps/details?id=com.bmassey.android.lakeridgesmashclub&hl=en"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
 				</div>
 			</div>
-			<div class="col-lg-2 col-sm-3">
+			<div class="col-lg-2 col-md-12 col-sm-12">
 				<div id="carouselSmashClubApp" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3050">
-				  <div class="carousel-inner" style="height:100px !important;">
+				  <div class="carousel-inner"> <!-- style="height:100px !important;" -->
 					<div class="carousel-item active">
-					  <img src="https://play-lh.googleusercontent.com/ZeekwfCj6nI4GL0g7USiy99ul6RpASCIeAv7XzhEWPBwM1pUo881oTvkQgDoIJCiHoI=w999-h927-rw" class="d-block w-100" alt="...">
+					  <img src="screenshots/lsc1.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="https://play-lh.googleusercontent.com/WSgoWAIg0lOmp92mskSC2iG0UYnbvJeH9BoGZbnXx4U0_7Il6cZoJUyJeaEwRm1LMVk=w999-h927-rw" class="d-block w-100" alt="...">
+					  <img src="screenshots/lsc2.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="https://i.imgur.com/oGVH2aM.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/lsc3.png" class="d-block w-100" alt="...">
 					</div>
 				  </div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-sm-9">
+			<div class="col-lg-6 col-md-12 col-sm-12">
 				<!--<div class="alert alert-info" role="alert">-->
 					Provides interactive rankings for a club’s game players.
 				<!--</div>-->
@@ -334,7 +347,7 @@
 		</div>
 		
 		<div class="row anelement align-items-center" style="border:6px solid CadetBlue; border-style: none solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
-			<div class="col-lg-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Virtual Reality AP Testing Sim
@@ -351,22 +364,22 @@
 					<a href="https://github.com/BenjaminMassey/VRAPTesting"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
 				</div>
 			</div>
-			<div class="col-lg-2 col-sm-3">
+			<div class="col-lg-2 col-md-12 col-sm-12">
 				<div id="carouselAPTesting" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3100">
-				  <div class="carousel-inner" style="height:100px !important;">
+				  <div class="carousel-inner"> <!-- style="height:100px !important;" -->
 					<div class="carousel-item active">
-					  <img src="screenshots/vrap1.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/vap1.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="screenshots/vrap2.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/vap2.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="screenshots/vrap3.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/vap3.png" class="d-block w-100" alt="...">
 					</div>
 				  </div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-sm-9">
+			<div class="col-lg-6 col-md-12 col-sm-12">
 				<!--<div class="alert alert-info" role="alert">-->
 					A VR experience where one can practice taking a college entry exam.
 				<!--</div>-->
@@ -378,7 +391,7 @@
 		</div>
 		
 		<div class="row anelement align-items-center" style="border:6px solid CadetBlue; border-style: none solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
-			<div class="col-lg-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Idea of Home Web Project
@@ -395,22 +408,22 @@
 					<a href="https://github.com/BenjaminMassey/ENG250Project"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
 				</div>
 			</div>
-			<div class="col-lg-2 col-sm-3">
+			<div class="col-lg-2 col-md-12 col-sm-12">
 				<div id="carouselHomeWeb" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3150">
-				  <div class="carousel-inner" style="height:100px !important;">
+				  <div class="carousel-inner"> <!-- style="height:100px !important;" -->
 					<div class="carousel-item active">
-					  <img src="screenshots/webhome1.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/whg1.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="screenshots/webhome2.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/whg2.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="screenshots/webhome3.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/whg3.png" class="d-block w-100" alt="...">
 					</div>
 				  </div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-sm-9">
+			<div class="col-lg-6 col-md-12 col-sm-12">
 				<!--<div class="alert alert-info" role="alert">-->
 					Web-based interactive project made to analyze the idea of home.
 				<!--</div>-->
@@ -422,7 +435,7 @@
 		</div>
 		
 		<div class="row anelement align-items-center" style="border:6px solid CadetBlue; border-style: none solid none solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
-			<div class="col-lg-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Snail Mail Android Game
@@ -439,22 +452,22 @@
 					<a href="https://github.com/BenjaminMassey/SnailMail"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
 				</div>
 			</div>
-			<div class="col-lg-2 col-sm-3">
+			<div class="col-lg-2 col-md-12 col-sm-12">
 				<div id="carouselSnailMail" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3200">
-				  <div class="carousel-inner" style="height:100px !important;">
+				  <div class="carousel-inner"> <!-- style="height:100px !important;" -->
 					<div class="carousel-item active">
-					  <img src="screenshots/snail1.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/sma1.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="screenshots/snail2.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/sma2.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="screenshots/snail3.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/sma3.png" class="d-block w-100" alt="...">
 					</div>
 				  </div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-sm-9">
+			<div class="col-lg-6 col-md-12 col-sm-12">
 				<!--<div class="alert alert-info" role="alert">-->
 					Simple game expanded upon from a 24 hour game jam.
 				<!--</div>-->
@@ -466,7 +479,7 @@
 		</div>
 		
 		<div class="row anelement align-items-center" style="padding-bottom:1em; border:6px solid CadetBlue; border-style: none solid solid solid;"> <!-- py-2 my-3 rounded justify-content-center align-items-center gx-5 -->
-			<div class="col-lg-4 col-sm-12">
+			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="p-3 border bg-light rounded">
 					<h3>
 						Virtual Reality Guitar Hero
@@ -483,22 +496,22 @@
 					<a href="https://github.com/BenjaminMassey/VRGuitarHero"><div class="hoverfade" style="text-align:right"><img src="icons/link.png" style="width:35px" class="img-fluid rounded-circle" alt="Link"></div></a>
 				</div>
 			</div>
-			<div class="col-lg-2 col-sm-3">
+			<div class="col-lg-2 col-md-12 col-sm-12">
 				<div id="carouselVRGuitar" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3250">
-				  <div class="carousel-inner" style="height:100px !important;">
+				  <div class="carousel-inner"> <!-- style="height:100px !important;" -->
 					<div class="carousel-item active">
-					  <img src="screenshots/guitar1.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/vgh1.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="screenshots/guitar2.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/vgh2.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="screenshots/guitar3.png" class="d-block w-100" alt="...">
+					  <img src="screenshots/vgh3.png" class="d-block w-100" alt="...">
 					</div>
 				  </div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-sm-9">
+			<div class="col-lg-6 col-md-12 col-sm-12">
 				<!--<div class="alert alert-info" role="alert">-->
 					Rhythm game inspired by Guitar Hero for the Oculus Rift.
 				<!--</div>-->
