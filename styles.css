@@ -1,0 +1,38 @@
+body {
+  background-color: LavenderBlush;
+}
+.title {
+  background-color: CadetBlue;
+}
+
+.subtitle {
+  background-color: CadetBlue;
+}
+
+.anelement {
+  background-color: Wheat;
+  font-size:1.15em;
+  font-family: Georgia;
+}
+
+.hoverfade img:hover {
+  opacity: .5;
+}
+
+.carousel-inner  {  
+  width:100%;
+  height:150px;
+  margin:auto;
+}
+
+@media (max-width: 1000px) {
+  .carousel-inner  {
+    width:50%;
+    height:100%;
+    margin:auto;
+  }
+  
+  .exptext {
+    font-size:1em;
+  }
+}
